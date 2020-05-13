@@ -6,13 +6,76 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css"/>
+    <style>
+        .side-card li {
+            padding-top: 2rem !important;
+            padding-bottom: 2rem !important;
+        }
+        ol {
+            line-height: 1.8 !important;
+        }
+
+        ol li {
+            padding-top: 2rem !important;
+            padding-bottom: 2rem !important;
+        }
+
+        body {
+            background: url(../img/kimchi-background.jpg) no-repeat center center fixed !important;
+            -webkit-background-size: cover !important;
+            -moz-background-size: cover !important;
+            -o-background-size: cover !important;
+            background-size: cover !important;
+        }
+
+    </style>
 </head>
 <body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Recipes</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Menu
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="kimchi.html">Kimchi</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="burger.html">Burger</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+            </li>
+        </ul>
+        <span class="navbar-text">
+        Welcome
+        </span>
+    </div>
+</nav>
 <div class="container p-3 my-3 bg-dark text-white"><h2>Kimchi and Spam Fried Rice</h2></div>
 
 <div class="container border-right border-left bg-light">
-    <div class="img-fluid my-3">
-        <img src="../img/kimchi-spam-fried-rice.jpg" alt="Pic of kimchi fried rice" class="centered-image"/>
+    <div class="row">
+        <div class="col-md-8 mw-75">
+            <img src="../img/kimchi-spam-fried-rice.jpg" alt="Pic of kimchi fried rice" class="img-fluid"/>
+        </div>
+        <div class="card col-md-4">
+            <ul class="side-card">
+                <li><strong>Yield: </strong> Serves 2 to 3</li>
+                <li><strong>DIFFICULTY: </strong> Easy</li>
+                <li><strong>TOTAL TIME:</strong> 15 minutes</li>
+            </ul>
+        </div>
     </div>
     <p>
         Kimchi fried rice is quick and easy way to make delicious food without spending a ton of money on ingredients. It's
