@@ -8,3 +8,22 @@
     *height:100%;
     margin-bottom: 0;
 }
+
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+kimchi ol {
+    line-height: 1.8 !important;
+}
+
+kimchi ol li {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+kimchi body {
+    background-color: lightgray !important;
+}
